@@ -1,0 +1,17 @@
+{
+  "name": "estate-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:dev": "tailwindcss -i ./assets/src/css/input.css -o ./assets/dist/css/main.css --watch",
+    "css:build": "tailwindcss -i ./assets/src/css/input.css -o ./assets/dist/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

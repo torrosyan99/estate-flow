@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+@import "./base/globals.css";
+
+@import "./components/containers.css";
